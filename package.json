@@ -1,0 +1,30 @@
+{
+  "name": "react-text-area",
+  "version": "1.0.0",
+  "description": "this is my implementation of a text area component",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shirbr510/react-text-area.git"
+  },
+  "author": "Shir Brass",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shirbr510/react-text-area/issues"
+  },
+  "homepage": "https://github.com/shirbr510/react-text-area#readme",
+  "dependencies": {
+    "react": "^16.1.0",
+    "react-dom": "^16.1.0"
+  },
+  "devDependencies": {
+    "flow": "^0.2.3",
+    "@storybook/react": "^3.2.14",
+    "@storybook/addon-actions": "^3.2.14",
+    "@storybook/addon-links": "^3.2.14"
+  }
+}
