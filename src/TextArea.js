@@ -1,5 +1,6 @@
 // @flow
 
+import './textarea.less'
 import React, {Component} from 'react';
 
 type Value = string| number;
