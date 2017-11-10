@@ -32,6 +32,17 @@ class TextArea extends Component {
         this._autoResize = this._autoResize.bind(this);
     }
 
+    componentDidMount(){
+        /*
+        auto-resizing only happens on keydown.
+        therefore, if there's an initial value provided to the area, a manual resize is required.
+         */
+        const {value} = this.props;
+        if(value){
+            this._autoResize()
+        }
+    }
+
     _autoResize(e: KeyboardEvent) {
         const {textArea} = this;
         setTimeout(() => {
