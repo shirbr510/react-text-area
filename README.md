@@ -9,6 +9,14 @@ this is my implementation of a text area component
 - [x] component's underline should be highlighted while input is focused
 - [x] component should have a placeholder
 
+## Getting Started
+
+1. make sure you have storybook installed globally by running `npm i -g @storybook/cli`
+2. run `npm install`
+3. run `npm run storybook`
+4. start checking it out 🎉
+
+
 ## Future Milestones
 
 - [ ] support external classnames easely
