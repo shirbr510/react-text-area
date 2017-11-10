@@ -3,6 +3,7 @@ import TextArea from './TextArea'
 
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
+import backgrounds from "@storybook/addon-backgrounds";
 
 const maxRows=5;
 
@@ -11,6 +12,9 @@ const placeholder="Placeholder";
 const onChangeActionLogger=action('input changed!');
 
 storiesOf('TextArea', module)
+    .addDecorator(backgrounds([
+        {name:"darkTheme", value: "#484648", default:true}
+    ]))
     .add('uncontrolled empty example',()=>{
         return <TextArea placeholder={placeholder} maxRows={maxRows} onChange={onChangeActionLogger}/>;
     })

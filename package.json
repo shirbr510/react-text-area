@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/shirbr510/react-text-area#readme",
   "dependencies": {
+    "@storybook/addon-backgrounds": "^3.2.15",
     "react": "^16.1.0",
     "react-dom": "^16.1.0"
   },
