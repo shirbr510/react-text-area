@@ -8,3 +8,9 @@ this is my implementation of a text area component
 - [x] word wrapping should not break words
 - [x] component's underline should be highlighted while input is focused
 - [x] component should have a placeholder
+
+## Future Milestones
+
+- [ ] support external classnames easely
+- [ ] support external styles easely
+- [ ] support different focus highlight styles via style object and css
